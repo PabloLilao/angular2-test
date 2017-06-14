@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+
+/* Colores 
+
+Fucsia ed1566
+Amarillo eff235
+Turquesa 3BE5FF
+Azul 3daee9
+Gris claro A8A8A8
+Gris oscuro 303030
+Casi negro 111111
+
+
+Navegacion:
+
+1er nivel
+Pestaña actual Am/N
+Resto N/B + Dif
+Hover T/B
+
+2º nivel
+Pestaña actual Am/N
+Resto N / B
+Hover T/B
+*/
+.body{
+	margin:0;
+	background-color: #111111;
+}
+.horizontal-centered{
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,0 +1,234 @@
+.logo-container{
+	
+}
+nav{
+ 
+}
+nav ul{
+	
+	 list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+nav li {
+    background-color: #111111;
+    opacity: 0.8;
+    border-bottom: 1px solid #000;
+}
+nav li a{
+    opacity: 0.8;
+}
+
+nav .second-level-links li {
+    background-color: #303030;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+}
+
+nav .first-level-links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+nav .first-level-links li.active{
+	background-color: #eff235;
+	opacity: 1;
+
+}
+nav .first-level-links li.active a {
+color: #000;
+opacity: 1;
+} 
+
+nav li a:hover {
+    background-color: #3BE5FF;
+    opacity: 1;
+    color: #000;
+}
+
+nav .second-level-links{
+	display: none;
+}
+nav li:hover .second-level-links{
+	display: block;
+	background-color: #111111;
+	opacity: 1;
+}
+nav li:hover .second-level-links a{
+	display: block;
+	background-color: #111111;
+	opacity: 1;
+}
+nav li:hover .second-level-links li:hover{
+	display: block;
+	background-color: #3BE5FF;
+	color: #000;
+	opacity: 1;
+}
+.second-level-links{
+
+}
+
+.hamburger-slim {
+  background: transparent;
+  margin: 25px 0px 0px 25px;
+  position: relative;
+  height: 30px;
+  width: 30px;
+
+   background-color: #111111;
+    opacity: 0.8;
+    border-bottom: 1px solid #000;
+}
+.hamburger-slim:before, .hamburger-slim:after {
+  background: #fff;
+  backface-visibility: hidden;
+  content: "";
+  height: 2px;
+  left: 0;
+  transition: 0.75s;
+  width: 30px;
+}
+.hamburger-slim:before {
+  box-shadow: #fff 0 9px 0 0;
+  position: absolute;
+  top: 5px;
+}
+.hamburger-slim:after {
+  position: absolute;
+  bottom: 5px;
+}
+/*
+.hamburger-slim:hover:before {
+  box-shadow: transparent 0 0 0 0;
+  top: 50%;
+  transform: rotate(225deg);
+}
+.hamburger-slim:hover:after {
+  top: 50%;
+  transform: rotate(315deg);
+}
+*/
+/* BACKUP
+
+.logo-container{
+	
+}
+.mobile-main-nav-menu{
+ 
+}
+.mobile-main-nav-menu ul{
+	
+	 list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.mobile-main-nav-menu li {
+    background-color: #111111;
+    opacity: 0.8;
+    border-bottom: 1px solid #000;
+}
+.mobile-main-nav-menu li a{
+    opacity: 0.8;
+}
+
+.mobile-main-nav-menu .second-level-links li {
+    background-color: #303030;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+}
+
+.mobile-main-nav-menu .first-level-links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.mobile-main-nav-menu .first-level-links li.active{
+	background-color: #eff235;
+	opacity: 1;
+
+}
+.mobile-main-nav-menu .first-level-links li.active a {
+color: #000;
+opacity: 1;
+} 
+
+.mobile-main-nav-menu li a:hover {
+    background-color: #3BE5FF;
+    opacity: 1;
+    color: #000;
+}
+
+.mobile-main-nav-menu .second-level-links{
+	display: none;
+}
+.mobile-main-nav-menu li:hover .second-level-links{
+	display: block;
+	background-color: #111111;
+	opacity: 1;
+}
+.mobile-main-nav-menu li:hover .second-level-links a{
+	display: block;
+	background-color: #111111;
+	opacity: 1;
+}
+.mobile-main-nav-menu li:hover .second-level-links li:hover{
+	display: block;
+	background-color: #3BE5FF;
+	color: #000;
+	opacity: 1;
+}
+.second-level-links{
+
+}
+
+.hamburger-slim {
+  background: transparent;
+  margin: 25px 0px 0px 25px;
+  position: relative;
+  height: 30px;
+  width: 30px;
+
+   background-color: #111111;
+    opacity: 0.8;
+    border-bottom: 1px solid #000;
+}
+.hamburger-slim:before, .hamburger-slim:after {
+  background: #fff;
+  backface-visibility: hidden;
+  content: "";
+  height: 2px;
+  left: 0;
+  transition: 0.75s;
+  width: 30px;
+}
+.hamburger-slim:before {
+  box-shadow: #fff 0 9px 0 0;
+  position: absolute;
+  top: 5px;
+}
+.hamburger-slim:after {
+  position: absolute;
+  bottom: 5px;
+}
+/*
+.hamburger-slim:hover:before {
+  box-shadow: transparent 0 0 0 0;
+  top: 50%;
+  transform: rotate(225deg);
+}
+.hamburger-slim:hover:after {
+  top: 50%;
+  transform: rotate(315deg);
+}
+*/
